@@ -16,11 +16,5 @@
             <groupId>cn.hao</groupId>
             <artifactId>analyse-model</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>org.dom4j</groupId>
-            <artifactId>dom4j</artifactId>
-            <version>2.1.0</version>
-        </dependency>
     </dependencies>
 </project>
