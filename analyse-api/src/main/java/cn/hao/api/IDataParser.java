@@ -1,7 +1,6 @@
 package cn.hao.api;
 
 import cn.hao.model.ResultInfo;
-import org.dom4j.DocumentException;
 
 import java.io.IOException;
 
@@ -13,5 +12,5 @@ public interface IDataParser {
 
     void hand(ITransferCache cache);
 
-    ResultInfo parse(String filePath, String xmlPath) throws IOException, DocumentException;
+    ResultInfo parse(String filePath, String xmlPath) throws IOException;
 }
